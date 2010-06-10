@@ -1,0 +1,13 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introduc\c {c}\~{a}o}{1}{section.1}
+\contentsline {section}{\numberline {2}Ferramentas b\IeC {\'a}sicas}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Editor de textos}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Google AppEngine SDK}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Shell - Linha de Comando e Atalhos do SDK}{3}{subsection.2.3}
+\contentsline {section}{\numberline {3}Primeira Aplica\IeC {\c c}\IeC {\~a}o}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o Cliente-Servidor via HTTP}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dev AppServer Cria como um Servidor Web }{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Est\IeC {\'a}ticas}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4} Publicando Minha Primeira P\IeC {\'a}gina }{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Din\IeC {\^a}micas}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6} Publicando Minha Primeira Aplica\IeC {\c c}\IeC {\~a}o }{7}{subsection.3.6}
