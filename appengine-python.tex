@@ -137,9 +137,39 @@ O modelo para aplicações cliente-servidor HTTP é uma solução que permite qu
 
 Quando um usuário digita um URL como http://www.meusite.com o navegador faz uma conexão com o servidor disponibilizado em www.meusite.com utilizando uma porta tradicional, a porta 80. Quando o endereço URL não tem um PATH adicional, ou seja, não possui dados depois de uma barra no final ( tipo http://www.site.com/outros dados ) então o navegador irá pedir o documento "/" barra. O servidor de Web, que encontra-se no domínio do servidor ( meusite.com ) irá então responder com o documento que foi configurado como sendo o "/", em geral poderá servir um index.html. Uma vez que o servidor envia para o navegador o arquivo index.html ( vamos imaginar que neste servidor o / é um index.html ) a conexão é terminada. É muito importante observar que uma conexão foi criada por tempo determinado até que o pedido foi feito. Uma vez que a conexão é terminada o usuário pode ficar quanto tempo quiser visitando a página "/". 
 
-Observe que na visão do usuário o conceito de página as vezes pode ser confuso. Neste caso o usuário tem a sensação que está visitando a "home" do site. Muitas vezes o usuário nem tem a noção que http://www.meusite.com refere-se ao contexto PATH "/" no servidor, ou seja, que é o mesmo de acessar http://www.meusite.com/. Foi o browser que criou este "short-cut" no momento que o usuário digitou http://www.meusite.com e colocou o "/" no final de maneira transparente. 
+Observe que na visão do usuário o conceito de página as vezes pode ser confuso. Neste caso o usuário tem a sensação que está visitando a "home" do site. Muitas vezes o usuário não tem a noção que "http://www.meusite.com" refere-se ao contexto PATH "/" no servidor, ou seja, que é o mesmo de acessar "http://www.meusite.com/". Em outras palavras, quando um usuário digita somente meusite.com, o browser que adiciona o "/" no final de maneira transparente. A figura \ref{fig:image-cliente-servidor} apresenta uma visão geral deste modelo onde o acesso a uma certa página HTML é de fato um processo que envolve um pedido ( requisição ) e que tem um retorno, uma conexão que tem inicio e fim. 
 
-No inicio da Web a maioria das páginas eram estáticas, ou seja, você podia criar uma página, vamos dizer index.html, deixar ela devidamente configurada em um servidor, então seria servida para o navegador de um usuário como o caso ilustrado acima. Outra coisa que vale lembrar é que a linguagem de marcação, HTML, permite que hyperlinks sejam criados, ou seja, uma dada página index.html poderia conter um link para um outro arquivo index-2.html. Então vamos imaginar um web site que tem duas páginas index.html e index-2.html. Estas estão devidamente configuradas em um servidor de Web em um servidor associado com um domínio www.meusite.com: 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=4.5in]{image-cliente-servidor.png}
+\caption{Usuário digita http://meusite.com/ e um pedido vai até o servidor que retorna uma página e a conexão então morre. }
+\label{fig:image-cliente-servidor}
+\end{figure}.
+
+\subsection { HTML e HTTP e separação das requisições } 
+
+Esta seção tem o objetivo de deixar mais evidente que as requisições do modelo HTTP, que é o protocolo de comunicação na Web, são temporárias --- elas deixam de existir assim que uma página chega ao navegador. Vamos imaginar o caso onde você está em um site que tem uma lista de items para outros documentos. Você então acesso primeiramente o http://www.meusite.com/ que é a página principal, ou home page, do site. Daí encontrou alguns links que dizem Link A, Link B, Link C. Estes três links ligam para outras páginas no mesmo servidor. No lado do servidor, no computador que encontra-se por exemplo em outra localização na Internet, tem-se os arquivos no sistema de arquivos: 
+
+\begin{verbatim} 
+/index.html  
+/link-a.html
+/link-b.html
+/link-c.html
+\end{verbatim} 
+
+O usuário iniciou a sessão quando requisitou ao browser o endereço http://www.meusite.com/. Assim que o servidor recebe a requisição, este ( por estar previamente configurado para fazer uma regra ) devolveu a página index.html. Quando a página HTML chegou ao browser ele apresenta ao usuário --- a conexão HTTP morre no momento que a página chegou no browser. Se a página ( index.html ) tem links para Link A, Link B e Link C, então o usuário tem opção de acessar estas outras páginas. Vale notar que uma vez que a conexão HTTP não mais existe, o usuário pode ficar quando tempo quiser nesta página index.html. Este é um dos benefícios do modelo HTTP. Enquanto o usuário encontra-se lendo uma página ( ou esperando que seja ) não existe nenhum custo para o lado do servidor. No momento que o usuário clicar em um link na página, é que o navegador vai novamente iniciar um processo de pedir uma requisição para o servidor assim novamente uma conexão HTTP é criada e irá viver por tempo determinado até que a página ( endereço do link clicado ) seja retornada ao browser.
+
+Esta noção é muito importante e permite maior facilidade para se entender como os serviços ou aplicações na Web são feitos. No início não havia aplicações no servidor e era tudo estático.  Mas a necessidade de se criar soluções dinâmicas fez com que diversos desenvolvedores criassem soluções onde programas funcionem no servidor e que sejam associados com o servidor de Web.
+
+A figura \ref{fig:image-servidor-web-app} mostra o cenário que um usuário, através do browser, faz uma requisição para uma "página" que não é estática ( por exemplo algo que vem de um banco de dados ). Assim que servidor de Web recebe a requisição ( por exemplo "http://www.meusite.com/atualizacao/" o servidor Web pode então estabelecer uma ponte, ou seja, uma outra requisição para uma aplicação na mesma máquina servidor, que então deverá gerar uma página HTML, que será entregue de volta para o servidor Web, que irá devolver para browser. Em geral o usuário não tem como saber se uma dada página é de fato estática ( um HTML escrito uma vez ) ou dinâmica ( um HTML que foi gerado por um programa de computador ). 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=4.5in]{image-servidor-web-app}
+\caption{Cliente pede, servidor Web faz a ponte para Aplicação, volta pelo Servidor }
+\label{fig:image-servidor-web-app}
+\end{figure}.
 
 
 \subsection {Dev AppServer Cria como um Servidor Web } 
