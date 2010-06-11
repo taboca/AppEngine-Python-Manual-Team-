@@ -6,8 +6,9 @@
 \contentsline {subsection}{\numberline {2.3}Shell - Linha de Comando e Atalhos do SDK}{3}{subsection.2.3}
 \contentsline {section}{\numberline {3}Primeira Aplica\IeC {\c c}\IeC {\~a}o}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o Cliente-Servidor via HTTP}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dev AppServer Cria como um Servidor Web }{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Est\IeC {\'a}ticas}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4} Publicando Minha Primeira P\IeC {\'a}gina }{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Din\IeC {\^a}micas}{7}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6} Publicando Minha Primeira Aplica\IeC {\c c}\IeC {\~a}o }{7}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.2} HTML e HTTP e separa\IeC {\c c}\IeC {\~a}o das requisi\IeC {\c c}\IeC {\~o}es }{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Dev AppServer Cria como um Servidor Web }{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Est\IeC {\'a}ticas}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5} Publicando Minha Primeira P\IeC {\'a}gina }{8}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Aplica\IeC {\c c}\IeC {\~a}o no Servidor Servindo P\IeC {\'a}ginas Din\IeC {\^a}micas}{8}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7} Publicando Minha Primeira Aplica\IeC {\c c}\IeC {\~a}o }{8}{subsection.3.7}
