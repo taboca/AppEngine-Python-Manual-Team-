@@ -1,22 +1,17 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2008.12.28)  11 JUN 2010 19:33
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.6.9)  21 JUN 2010 16:32
 entering extended mode
-\write18 enabled.
- %&-line parsing enabled.
-**appengine-python.tex
-(./appengine-python.tex
-LaTeX2e <2005/12/01>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
-abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
-h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
-greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
-tin, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, r
-omanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turki
-sh, ukenglish, ukrainian, uppersorbian, welsh, loaded.
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+**C:/Documents*and*Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-/appen
+gine-python.tex
+
+("C:/Documents and Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-/appen
+gine-python.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -30,31 +25,44 @@ File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/babel.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.sty"
 Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/portuges.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/babel.def
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.def"
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Portuguese'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@portuges = a dialect from \language0
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(./inputenc.sty
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\input
+enc.sty"
 Package: inputenc 2001/07/10 v0.99a Input encoding file 
- (/usr/local/texlive/2008/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encodingT1
+... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -201,10 +209,10 @@ File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 )
 Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encodingOT1
+... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -232,10 +240,10 @@ File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+201D (decimal 8221)
 )
 Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encodingOMS
+... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -258,8 +266,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+("C:\Program Files\MiKTeX 2.8\tex\latex\tools\multicol.sty"
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count88
 \mult@box=\box26
 \multicol@leftmargin=\dimen104
@@ -305,10 +313,10 @@ Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/base/makeidx.sty
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.8\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count96
 \float@exts=\toks14
@@ -316,53 +324,53 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks15
 \@floatcapt=\box53
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/array.sty
-Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.8\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
 \NC@list=\toks16
 \extratabsurround=\skip45
 \backup@length=\skip46
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/boxedminipage.sty)
-(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2008/12/26 v6.78n Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\boxedminipage.sty")
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2009/10/19 v6.79b Hypertext links for LaTeX
 
-(./keyval.sty
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\keyva
+l.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2007/12/12 v1.6 Provides the ifpdf switch (HO)
+) ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
 )
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2008/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2008/09/18 v0.4 Provides ifxetex conditional
+("C:\Program Files\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2008/09/08 v1.4 Code for color options of hyperref/bookmark (H
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
 O)
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2008/09/08 xcolor patch
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen114
 \Hy@linkcounter=\count97
 \Hy@pagecounter=\count98
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2008/12/26 v6.78n Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2009/10/19 v6.79b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
 )
 Package etexcmds Info: Could not find \expanded.
@@ -370,57 +378,68 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-(/usr/local/texlive/2008/texmf/tex/latex/config/hyperref.cfg
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2007/10/18 v3.0 Keyval support for LaTeX options (HO)
-)
-Package hyperref Info: Hyper figures OFF on input line 2907.
-Package hyperref Info: Link nesting OFF on input line 2912.
-Package hyperref Info: Hyper index ON on input line 2915.
-Package hyperref Info: Plain pages OFF on input line 2922.
-Package hyperref Info: Backreferencing OFF on input line 2927.
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
 
 Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3117.
-(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/url.sty
+Package hyperref Info: Bookmarks ON on input line 3191.
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 3354.
+LaTeX Info: Redefining \url on input line 3428.
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/bitset.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
 Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/intcalc.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
 Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
 )
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2007/12/12 v0.3 LuaTeX support for pdfTeX utility functions
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
  (HO)
-Package pdftexcmds Info: LuaTeX not detected on input line 139.
-)))
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
-t (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 )
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
 \Fld@menulength=\count99
 \Field@Width=\dimen115
 \Fld@charsize=\dimen116
 \Field@toks=\toks18
-Package hyperref Info: Hyper figures OFF on input line 4271.
-Package hyperref Info: Link nesting OFF on input line 4276.
-Package hyperref Info: Hyper index ON on input line 4279.
-Package hyperref Info: backreferencing OFF on input line 4286.
-Package hyperref Info: Link coloring OFF on input line 4291.
-Package hyperref Info: Link coloring with OCG OFF on input line 4296.
-Package hyperref Info: PDF/A mode OFF on input line 4301.
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
 
-(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
 \Hy@abspage=\count100
@@ -433,44 +452,42 @@ Package hyperref Warning: Wrong driver `hdvipdfm.def';
 (hyperref)                Forcing driver `hpdftex.def'.
 
 *hyperref using driver hpdftex*
-(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2008/12/26 v6.78n Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2009/10/19 v6.79b Hyperref driver for pdfTeX
 \Fld@listcount=\count103
 )
-(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2008/texmf/tex/latex/config/graphics.cfg
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 90.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2008/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count104
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
 \@indexfile=\write3
-\openout3 = `appengine-python.idx'.
-
 
 Writing index file appengine-python.idx
 \@float@every@figure=\toks19
-(./appengine-python.aux
+
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.aux"
 
 LaTeX Warning: Label `fig:appengine-sdk' multiply defined.
 
 )
-\openout1 = `appengine-python.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
@@ -486,19 +503,22 @@ LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 Package hyperref Info: Link coloring OFF on input line 49.
- (./nameref.sty
+
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\namer
+ef.sty"
 Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
 \c@section@level=\count105
 )
 LaTeX Info: Redefining \ref on input line 49.
 LaTeX Info: Redefining \pageref on input line 49.
- (./appengine-python.out) (./appengine-python.out)
+
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.out")
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.out")
 \@outlinefile=\write4
-\openout4 = `appengine-python.out'.
-
 \AtBeginShipoutBox=\box54
-
-(/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
+ ("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen119
@@ -517,23 +537,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 51.
- (./appengine-python.toc
+
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
 \tf@toc=\write5
-\openout5 = `appengine-python.toc'.
-
  [1
 
-{/usr/local/texlive/2008/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] <im
-age-appengine.png, id=94, 648.4225pt x 485.815pt>
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.8/pdftex/config/
+pdftex.map}] [2]
+<image-appengine.png, id=91, 648.4225pt x 485.815pt>
 File: image-appengine.png Graphic file (type png)
-
-<use image-appengine.png> [3 <./image-appengine.png>]
-<image-dev_appserver.png, id=104, 786.94pt x 504.88625pt>
+ <use image-appengine.png>
+[3 <C:/Documents and Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-/ima
+ge-appengine.png>] <image-dev_appserver.png, id=101, 786.94pt x 504.88625pt>
 File: image-dev_appserver.png Graphic file (type png)
 
 <use image-dev_appserver.png>
@@ -541,8 +562,9 @@ Overfull \hbox (16.34999pt too wide) in paragraph at lines 103--106
  [][] 
  []
 
-[4 <./image-dev_appserver.png>]
-<image-shell-example.png, id=111, 607.26875pt x 153.57375pt>
+[4 <C:/Documents and Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-/ima
+ge-dev_appserver.png>]
+<image-shell-example.png, id=108, 607.26875pt x 153.57375pt>
 File: image-shell-example.png Graphic file (type png)
 
 <use image-shell-example.png>
@@ -550,48 +572,55 @@ Overfull \hbox (16.34999pt too wide) in paragraph at lines 126--129
  [][] 
  []
 
-[5 <./image-shell-example.png (PNG copy)>]
-<image-cliente-servidor.png, id=118, 672.5125pt x 322.20375pt>
+[5 <C:/Documents and Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-/ima
+ge-shell-example.png (PNG copy)>]
+<image-cliente-servidor.png, id=115, 672.5125pt x 322.20375pt>
 File: image-cliente-servidor.png Graphic file (type png)
 
-<use image-cliente-servidor.png> [6 <./image-cliente-servidor.png (PNG copy)>]
+<use image-cliente-servidor.png> [6 <C:/Documents and Settings/gallimj/Desktop/
+AppEngine-Python-Manual-Team-/image-cliente-servidor.png (PNG copy)>]
 Underfull \hbox (badness 2753) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/10 O usu^^Sario ini-ciou a sess~ao quando re-qui-si-tou ao brow-
-ser o en-dere^^Xco
+[]\OT1/cmr/m/n/10 O usuario ini-ciou a sess~ao quando req-ui-si-tou ao browser
+ o en-dereco
  []
 
-<image-servidor-web-app.png, id=125, 680.5425pt x 406.51875pt>
+<image-servidor-web-app.png, id=122, 680.5425pt x 406.51875pt>
 File: image-servidor-web-app.png Graphic file (type png)
 
 <use image-servidor-web-app.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] [8 <./image-servidor-web-app.png (PNG copy)>]
+[7] [8 <C:/Documents and Settings/gallimj/Desktop/AppEngine-Python-Manual-Team-
+/image-servidor-web-app.png (PNG copy)>]
 No file appengine-python.ind.
-(./appengine-python.bbl) [9] (./appengine-python.aux)
+
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.bbl") [9]
+("C:\Documents and Settings\gallimj\Desktop\AppEngine-Python-Manual-Team-\appen
+gine-python.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4836 strings out of 493876
- 68975 string characters out of 1150567
- 146876 words of memory out of 3000000
- 7998 multiletter control sequences out of 10000+50000
- 8362 words of font info for 30 fonts, out of 3000000 for 5000
- 714 hyphenation exceptions out of 8191
- 36i,6n,36p,1217b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/l
-ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx9.pfb></usr/local/texli
-ve/2008/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></usr/local/texlive/2008/te
-xmf-dist/fonts/type1/bluesky/cm/cmr12.pfb></usr/local/texlive/2008/texmf-dist/f
-onts/type1/bluesky/cm/cmr17.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1
-/bluesky/cm/cmr9.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm
-/cmtt10.pfb>
-Output written on appengine-python.pdf (9 pages, 263780 bytes).
+ 4914 strings out of 495285
+ 71207 string characters out of 3180335
+ 147168 words of memory out of 3000000
+ 7994 multiletter control sequences out of 15000+200000
+ 8362 words of font info for 30 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,6n,36p,1289b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.8/font
+s/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb>
+Output written on appengine-python.pdf (9 pages, 309253 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 131072)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
