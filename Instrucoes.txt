@@ -1,0 +1,13 @@
+Fazendo mudanças e empurrando para o repositorio 
+
+Tem que estar no diretorio App....
+git status
+git add .
+git commit -m "...."
+git push origin master
+
+
+Puxando o que outros fizeram:
+Tem que estar no diretorio App....
+
+git pull
